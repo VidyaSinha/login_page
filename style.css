@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet');
+/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet'); */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('form.jpg');
+    background-size: 100%;
+    color: white;
+}
+
+.nav-tabs{
+    display: flex;
+    text-decoration:none;
+    list-style-type: none;
+    word-spacing: 100px;
+}
+
+.nav-item{
+    text-decoration:dotted;
+}
+nav {
+    background-color: transparent;
+    color: black;
+    text-align: left;
+    padding: 1em;
+    font-family: 'Lemon', serif;
+
+}
+
+.container-fluid{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.navbar {
+    background-color: transparent; 
+    color: #ffffff; 
+  }
+  
+ 
+  .navbar-brand {
+    font-size: 5rem; 
+    color: black; 
+  }
+
+  .navbar-nav{
+    color: black;
+  }
+ 
+  .nav-tabs {
+    background-color: transparent;
+    padding: 10px;
+  }
+  
+  .nav-item {
+    margin-right: 20px; 
+    text-decoration: none;
+    
+  }
+  
+
+.nav-link {
+    color: rgb(11, 10, 10); 
+    background-color: rgba(227, 227, 227, 0.7);
+    padding: 10px 15px;
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Box shadow for a glossy effect */
+    /* Smooth transition for background color */
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+ 
+  .nav-link:hover{
+    text-decoration: none; /* Remove underline on hover */
+    background-color: transparent;
+    color: #ffffff; /* Text color on hover */
+    box-shadow: none; /* Remove box shadow on hover */
+  }
+  
+  
+/* Style for the navbar */
+.navbar {
+    background-color: transparent; /* Background color for the navbar */
+    color: #ffffff; /* Text color for the navbar */
+  }
+  
+  /* Style for the navbar brand */
+  .navbar-brand {
+    font-size: 1.5rem; /* Adjust the font size for the brand */
+    font-weight: bold; /* Make the brand text bold */
+    color: black; /*ext color for the brand */
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .navbar-brand img{
+    height: 50px;
+    width: 50px;
+    border-radius: 60%;
+    border: solid 1px #020202;
+    margin-right: 20px;
+     
+  }
+  
+  /* Style for the container */
+  .container-fluid {
+    display: flex; /* Use flexbox for the container */
+    justify-content: space-between; /* Space items evenly within the container */
+    align-items: center; /* Center items vertically within the container */
+  }
+  
+  /* Style for the navigation tabs */
+  .nav-tabs {
+    background-color: transparent; /* Background color for the navigation tabs */
+    padding: 10px; /* Add some padding for better appearance */
+    display: flex;
+    list-style-type: none;
+  }
+  
+  /* Style for individual navigation items */
+  .nav-item {
+
+    margin-right: 30px;
+    padding-right: 10px;
+  }
+  
+  /* Style for active navigation link */
+  .nav-link.active {
+    color: #ffffff; /* Text color for active link */
+    background-color: transparent; /* Background color for active link */
+    border-color: #fafdff; /* Border color for active link */
+  }
+  
+  /* Style for disabled navigation link */
+  /* .nav-link.disabled {
+    color: #ffffff; /* Text color for disabled link */
+   */
+  
+  /* Hover effect for navigation links */
+  .nav-link:hover {
+    text-decoration: none; /* Remove underline on hover */
+    color: #020202; /* Text color on hover */
+
+  }
+  
+main {
+    padding-left: 80px ;
+}
+
+.event-registration {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 30px;
+    text-align: center;
+    background-color: rgba(107, 105, 105, 0.7);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    width:30vw ;
+    height: 25vw;
+    margin-left: 450px;
+    /* font-weight: 400 */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 67px;
+}
+
+label {
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+input,
+select {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 80%;
+    box-sizing: border-box;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    margin-left: 67px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 0.5em;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .register-button {
+        display: inline-block;
+        padding: 10px 10px;
+        text-decoration: none;
+        color: white;
+        background-color: #18191a;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 150px;
+        margin-left: 75px;
+
+      }
+      
+      .register-button:hover {
+        background-color: #b1b1b1;
+      }
+    
+
+
+      @media screen and (max-width: 600px) {
+        body {
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          margin: 0;
+          padding: 0;
+          background: url('form.jpg') no-repeat fixed;
+          background-size: cover;
+          /* opacity: 0.1; */
+          color: white;
+          backdrop-filter: blur(2px); 
+          overflow: hidden; /* Hide scroll bars */
+          width: 100%; /* Full width of the viewport */
+          height: 100vh;
+      }
+        .container-fluid {
+            flex-direction: row;
+  
+            /* height: 100px; */
+        }
+    
+        .nav-tabs {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+    
+        .nav-item {
+            margin-right: 0;
+            margin-bottom: 10px;
+        }
+    
+        main {
+            padding-left: 20px;
+        }
+    
+        .event-registration {
+            margin-left: 20px;
+            margin-right: 20px;
+            width: auto;
+            max-width: 280px;
+            height: 300px;
+            padding-bottom: 100px;
+            
+            margin-bottom: 500px;
+            margin-top: auto;
+        }
+        .event-registration h1{
+          font-size: 22px;
+        }
+    
+        .form-label{
+          font-size:15px;
+        }
+        #name{
+          width: 200px;
+        }
+        #event{
+          width: 200px;
+        }
+        #email{
+          width: 200px;
+        }
+
+        form {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    
+        button {
+            margin-left: 10px;
+            width: auto;
+            max-width: 100%;
+        }
+        .navbar-brand {
+          font-size: 1.1rem; /* Adjust the font size for the brand */
+          font-weight: bold; /* Make the brand text bold */
+          color: black; /*ext color for the brand */
+          padding-left: 20px;
+          display: flex;
+          align-items: center;
+          
+        }
+
+        .nav-link {
+          color: rgb(11, 10, 10); 
+          background-color: rgba(227, 227, 227, 0.7);
+          padding: 5px 7px;
+          /* display: flex; */
+          /* width: 500px; */
+          /* margin-right: 10px; */
+          border-radius: 5px; 
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Box shadow for a glossy effect */
+          /* Smooth transition for background color */
+          text-decoration: none;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .nav-item {
+          margin-right: 30px;
+        }
+        
+        .nav nav-tabs {
+          background-color: transparent;
+    padding: 10px;
+    display: flex;
+    list-style-type: none;
+    /* overflow-x: auto; */
+    width: 300px;
+    margin-bottom: 100px;
+        }
+
+        .register-button {
+          display: inline-block;
+          padding: 10px 10px;
+          text-decoration: none;
+          color: white;
+          background-color: #18191a;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          width: 120px;
+          margin-top: 15px;
+          margin-left: 20px;
+  
+        }
+        
+        .register-button:hover {
+          background-color: #f5f5f5;
+        }
+      }
